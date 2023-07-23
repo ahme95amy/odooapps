@@ -1,0 +1,105 @@
+<head>
+  <meta name="description" content="POS Refund Order Validation" />
+  <meta name="keywords" content="odoo, odooapps, pos, refund, order" />
+  <meta name="author" content="Ahmed Alnahal" />
+</head>
+<section class="oe_container lead">
+  <div class="oe_row oe_spaced">
+    <div class="oe_span12">
+      <h2 class="oe_slogan">POS Refund Payment Validation</h2>
+      <h3 class="oe_slogan">
+        This module validates refunding POS order whenever the selected payment method/s for refund is same as the payment method/s of the original sale order
+      </h3>
+    </div>
+  </div>
+</section>
+
+<section class="oe_container lead">
+  <div class="alert text-center mt32">
+    <b>1. Create an ordinary POS order </b>
+  </div>
+  <a href="pos_order.png">
+    <img
+      class="oe_picture oe_screenshot"
+      src="pos_order.png"
+      style="width: 100%; margin: auto"
+    />
+  </a>
+  <div class="alert text-center mt32">
+    <b>2. Select the payment method which you want to pay in</b>
+    <p>Note: Here, I will pay part of the amount in "cash", and the other part in "Bank"</p>
+  </div>
+  <a href="payment_method_original_order.png">
+    <img
+      class="oe_picture oe_screenshot"
+      src="payment_method_original_order.png"
+      style="width: 100%; margin: auto"
+    />
+  </a>
+  <div class="alert text-center mt32">
+    <b>3. Create a refund order</b>
+  </div>
+  <a href="refund_order.png">
+    <img
+      class="oe_picture oe_screenshot"
+      src="refund_order.png"
+      style="width: 100%; margin: auto"
+    />
+  </a>
+  <div class="alert text-center mt32">
+    <b>4. Select the order which you want to refund</b>
+  </div>
+  <a href="select_order_to_refund.png">
+    <img
+      class="oe_picture oe_screenshot"
+      src="select_order_to_refund.png"
+      style="width: 100%; margin: auto"
+    />
+  </a>
+  <div class="alert text-center mt32">
+    <b>5. Select the payment method which you want to refund with</b>
+    <p>Note:  Here, I have selected "Customer Account" method!, and the original sale order was paid in "Cash and Bank"</p>
+    <p>So, I have got this Popup warning message!</p>
+  </div>
+  <a href="payment_method_refund_order.png">
+    <img
+      class="oe_picture oe_screenshot"
+      src="payment_method_refund_order.png"
+      style="width: 100%; margin: auto"
+    />
+  </a>
+  <div class="alert text-center mt32">
+    <b>6. Select the payment method which mentioned in the preceding Popup message</b>
+    <p>Note:  Here, I have selected "Cash" and "Bank" method!, and the original sale order was paid in "Cash and Bank"</p>
+    <p>So, it skipped the validation warning</p>
+  </div>
+  <a href="skip_validation_warning.png">
+    <img
+      class="oe_picture oe_screenshot"
+      src="skip_validation_warning.png"
+      style="width: 100%; margin: auto"
+    />
+  </a>
+  <div class="alert text-center mt32">
+    <b>Congrats, your refund transaction has been validated :)</b>
+  </div>
+  <a href="congrats!.png">
+    <img
+      class="oe_picture oe_screenshot"
+      src="congrats!.png"
+      style="width: 100%; margin: auto"
+    />
+  </a>
+</section>
+
+<section class="oe_container lead">
+  <div class="alert text-center mt32">
+    <h2 style="color:red">SUPPORT</h2>
+    <a
+      rel="nofollow"
+      href="https://www.linkedin.com/in/ahmed-alnahal-b7b38b261/"
+      target="_blank">
+      <i style='font-size:24px' class='fab'>&#xf0e1;</i> Linkedin
+    </a>
+  </div>
+</section>
