@@ -7,7 +7,7 @@
     'category': 'Point of Sale',
     'author': 'Ahmed Alnahal',
     'maintainer': 'Ahmed Alnahal',
-    'website': 'https://www.linkedin.com/in/ahmed-alnahal-b7b38b261/',
+    'website': 'https://www.linkedin.com/in/ahmed-alnahal/',
     'license': 'LGPL-3',
     'depends': ['web', 'base', 'point_of_sale'],
     'data': [
