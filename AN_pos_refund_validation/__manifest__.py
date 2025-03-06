@@ -14,7 +14,7 @@
     ],
     'assets': {
         'web.assets_backend': [
-            'pos_refund_validation/static/src/js/payment_screen.js'
+            'AN_pos_refund_validation/static/src/js/payment_screen.js'
         ],
     },
     'images': ['static/description/banner.png'],
