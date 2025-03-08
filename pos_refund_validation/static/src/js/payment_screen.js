@@ -1,4 +1,4 @@
-odoo.define('AN_pos_refund_validation.PaymentScreen', function(require) {
+odoo.define('pos_refund_validation.PaymentScreen', function(require) {
     "use strict";
 
     const PaymentScreen = require('point_of_sale.PaymentScreen');
